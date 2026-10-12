@@ -1,0 +1,25 @@
+{
+ "subject_invite": "Share your ONGC journey: Smriti knowledge legacy programme",
+ "templates": {
+  "auto-2m": {
+   "label": "Two-month invitation",
+   "subject": "Share your journey with the next generation: Smriti knowledge legacy programme",
+   "body": "Dear {{name}},\n\nYour superannuation date is {{dor}} ({{days}} days from today). Thank you for your many years of service to the organisation.\n\nWe would like your experience, judgement and stories to guide those who follow. Please log in to the Smriti portal and tell us how you would like to share them: a written questionnaire, a recorded interview, or both.\n\nPortal: {{link}}\n\nIt takes about 30 minutes to begin, and you can save your progress and return any time.\n\nWith regards,\nKnowledge Management Team"
+  },
+  "invite": {
+   "label": "Invitation (manual)",
+   "subject": "Invitation: share your experience on the Smriti portal",
+   "body": "Dear {{name}},\n\nThe Knowledge Management Team would value your experience for our learning repository. Please log in and choose how you would like to contribute: written responses, an interview, or both.\n\nPortal: {{link}}\n\nWith regards,\nKnowledge Management Team"
+  },
+  "reminder": {
+   "label": "Reminder",
+   "subject": "Reminder: your experience matters, Smriti portal",
+   "body": "Dear {{name}},\n\nA gentle reminder: you have {{days}} days to your superannuation date ({{dor}}). We have not yet received your preferred way of sharing your experience.\n\nPlease log in here: {{link}}\n\nWith regards,\nKnowledge Management Team"
+  },
+  "nudge": {
+   "label": "Nudge: complete submission",
+   "subject": "Almost there: please complete your Smriti contribution",
+   "body": "Dear {{name}},\n\nThank you for starting your contribution. A few items are still pending, with {{days}} days to go before {{dor}}. Please take a few minutes to complete them or confirm an interview slot.\n\nContinue here: {{link}}\n\nWith regards,\nKnowledge Management Team"
+  }
+ }
+}

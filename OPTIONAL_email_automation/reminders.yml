@@ -1,0 +1,77 @@
+name: Send Smriti emails
+
+# 1) Every day at 09:00 IST (03:30 UTC) -> emails anyone who is 60 days (or fewer) from superannuation
+#    and has not yet received the automatic invitation.
+# 2) On demand (admin "Send" buttons in the portal, or Actions tab > Run workflow) -> invite / reminder / nudge.
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+    inputs:
+      emp_ids:
+        description: "Comma-separated employee IDs (leave empty to run the automatic 2-month check)"
+        required: false
+        default: ""
+      kind:
+        description: "Mail type for the listed employees"
+        required: false
+        default: "reminder"
+        type: choice
+        options: [auto-2m, invite, reminder, nudge]
+      dry_run:
+        description: "Dry run (print only, send nothing)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write        # to commit data/mail_log.json back
+  actions: write         # to re-run the Pages deploy so the portal can show the new mail log
+
+concurrency:
+  group: smriti-mail
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send emails
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          PORTAL_URL: ${{ vars.PORTAL_URL }}
+          LEAD_DAYS: ${{ vars.LEAD_DAYS }}
+          # inputs go through env vars (never spliced into the shell) to avoid script injection
+          IN_EMP_IDS: ${{ github.event.inputs.emp_ids }}
+          IN_KIND: ${{ github.event.inputs.kind }}
+          IN_DRY: ${{ github.event.inputs.dry_run }}
+        run: |
+          set -e
+          ARGS=()
+          if [ "$IN_DRY" = "true" ]; then ARGS+=(--dry-run); fi
+          if [ -n "$IN_EMP_IDS" ]; then
+            python scripts/send_reminders.py --mode manual --emp-ids "$IN_EMP_IDS" --kind "${IN_KIND:-reminder}" "${ARGS[@]}"
+          else
+            python scripts/send_reminders.py --mode auto "${ARGS[@]}"
+          fi
+      - name: Commit mail log and refresh the portal
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name  "smriti-bot"
+          git config user.email "smriti-bot@users.noreply.github.com"
+          git add data/mail_log.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update mail log"
+            git push
+            # pushes made with GITHUB_TOKEN do not trigger other workflows, so start the deploy explicitly
+            gh workflow run pages.yml --ref "${{ github.ref_name }}"
+          fi

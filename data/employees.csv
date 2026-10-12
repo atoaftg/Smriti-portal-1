@@ -1,0 +1,21 @@
+empId,name,designation,discipline,location,doj,dor,email,mobile
+E1001,Suresh Chandra Mehta,General Manager,Drilling Services,Mumbai,1992-07-01,2026-09-30,suresh.mehta@ongc-sample.test,+91 90000 10000
+E1002,Anita Raghavan,Chief General Manager,Well Services,Ahmedabad,1991-08-12,2026-10-31,anita.raghavan@ongc-sample.test,+91 90000 10037
+E1003,Dr. Prakash Venkataraman,Executive Director,Reservoir,Dehradun,1990-11-05,2026-11-30,prakash.venkataraman@ongc-sample.test,+91 90000 10074
+E1004,Harpreet Singh Bedi,General Manager,Logging,Vadodara,1993-02-10,2026-11-30,harpreet.bedi@ongc-sample.test,+91 90000 10111
+E1005,Dr. Meenakshi Iyer,Chief General Manager,Geophysics,Dehradun,1991-09-16,2026-10-31,meenakshi.iyer@ongc-sample.test,+91 90000 10148
+E1006,Dr. Rajiv Narang,General Manager,Chemistry,Dehradun,1994-01-03,2026-12-31,rajiv.narang@ongc-sample.test,+91 90000 10185
+E1007,Biswajit Dutta Choudhury,Executive Director,Geology,Jorhat,1990-06-18,2026-11-30,biswajit.choudhury@ongc-sample.test,+91 90000 10222
+E1008,Vikram Pratap Rao,Chief General Manager,Production (Surface Operations),Mumbai,1991-03-25,2026-12-31,vikram.rao@ongc-sample.test,+91 90000 10259
+E1009,Sanjay Kulkarni,General Manager,Mechanical,Mumbai,1993-07-08,2027-01-31,sanjay.kulkarni@ongc-sample.test,+91 90000 10296
+E1010,Debashish Mukherjee,Chief General Manager,Electrical,Rajahmundry,1992-05-14,2026-11-30,debashish.mukherjee@ongc-sample.test,+91 90000 10333
+E1011,Kavita Sharma,General Manager,E&T / Instrumentation,Delhi,1992-12-01,2026-12-11,kavita.sharma@ongc-sample.test,+91 90000 10370
+E1012,Rekha Pillai,Executive Director,Human Resources,Delhi,1992-04-20,2027-02-28,rekha.pillai@ongc-sample.test,+91 90000 10407
+E1013,Anil Kumar Joshi,Chief General Manager,Finance,Delhi,1993-09-02,2027-03-31,anil.joshi@ongc-sample.test,+91 90000 10444
+E1014,Mohammed Irfan Qureshi,General Manager,Procurement,Mumbai,1994-03-11,2027-01-31,mohammed.qureshi@ongc-sample.test,+91 90000 10481
+E1015,Dinesh Rawat,Chief General Manager,HSE,Delhi,1991-10-07,2026-12-31,dinesh.rawat@ongc-sample.test,+91 90000 10518
+E1016,Gurmeet Singh Sandhu,General Manager,Fire Services,Mumbai,1993-06-21,2027-02-28,gurmeet.sandhu@ongc-sample.test,+91 90000 10555
+E1017,Shalini Deshmukh,Executive Director,Business Development,Delhi,1990-08-30,2027-04-30,shalini.deshmukh@ongc-sample.test,+91 90000 10592
+E1018,Pradeep Nair,Executive Director,Uran Plant,Uran,1990-12-17,2026-11-30,pradeep.nair@ongc-sample.test,+91 90000 10629
+E1019,Ramesh Chandran,General Manager,Hazira Plant,Hazira,1993-01-25,2026-12-31,ramesh.chandran@ongc-sample.test,+91 90000 10666
+E1020,Jignesh Patel,Chief General Manager,Dahej Plant,Dahej,1992-10-19,2027-01-31,jignesh.patel@ongc-sample.test,+91 90000 10703

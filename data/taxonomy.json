@@ -1,0 +1,177 @@
+{
+  "Well control": [
+    "kick",
+    "blowout",
+    "bop",
+    "well control",
+    "influx",
+    "flow check"
+  ],
+  "Drilling fluids": [
+    "mud",
+    "drilling fluid",
+    "rheology",
+    "viscosity"
+  ],
+  "Stuck pipe": [
+    "stuck pipe",
+    "packoff",
+    "torque and drag",
+    "overpull"
+  ],
+  "Offshore operations": [
+    "offshore",
+    "platform",
+    "jack-up",
+    "mumbai high",
+    "vessel"
+  ],
+  "Reservoir management": [
+    "reservoir",
+    "history match",
+    "pressure",
+    "surveillance",
+    "simulation"
+  ],
+  "Water injection": [
+    "water injection",
+    "waterflood",
+    "injector",
+    "sweep"
+  ],
+  "Enhanced oil recovery": [
+    "eor",
+    "polymer",
+    "chemical flood",
+    "enhanced oil recovery"
+  ],
+  "Seismic interpretation": [
+    "seismic",
+    "4d",
+    "processing",
+    "acquisition",
+    "velocity"
+  ],
+  "Formation evaluation": [
+    "log",
+    "logging",
+    "petrophysics",
+    "formation evaluation"
+  ],
+  "Well intervention": [
+    "workover",
+    "coiled tubing",
+    "fracturing",
+    "stimulation",
+    "intervention"
+  ],
+  "Flow assurance": [
+    "wax",
+    "hydrate",
+    "separator",
+    "flow assurance",
+    "gas lift"
+  ],
+  "Rotating equipment": [
+    "compressor",
+    "turbine",
+    "vibration",
+    "bearing",
+    "rotating"
+  ],
+  "Power systems": [
+    "power",
+    "switchgear",
+    "grid",
+    "generator",
+    "blackout"
+  ],
+  "Automation and SCADA": [
+    "scada",
+    "plc",
+    "dcs",
+    "instrument",
+    "automation",
+    "control system"
+  ],
+  "Process safety": [
+    "process safety",
+    "hazop",
+    "relief",
+    "flare",
+    "permit to work",
+    "lopc"
+  ],
+  "Fire and emergency": [
+    "fire",
+    "emergency",
+    "drill",
+    "evacuation",
+    "foam"
+  ],
+  "Gas processing": [
+    "gas processing",
+    "sour gas",
+    "amine",
+    "condensate",
+    "lpg",
+    "ngl",
+    "fractionation"
+  ],
+  "Contracts and procurement": [
+    "contract",
+    "tender",
+    "vendor",
+    "procurement",
+    "supplier"
+  ],
+  "Budget and finance": [
+    "budget",
+    "capex",
+    "audit",
+    "cost",
+    "finance"
+  ],
+  "People and talent": [
+    "succession",
+    "talent",
+    "training",
+    "recruit",
+    "morale",
+    "people"
+  ],
+  "Mentoring": [
+    "mentor",
+    "mentoring",
+    "guide",
+    "coach"
+  ],
+  "Digitalisation": [
+    "digital",
+    "analytics",
+    "dashboard",
+    "machine learning",
+    "data"
+  ],
+  "Business development": [
+    "bid",
+    "partner",
+    "acquisition",
+    "joint venture",
+    "farm-in"
+  ],
+  "Geochemistry and chemistry": [
+    "geochemistry",
+    "corrosion inhibitor",
+    "lab",
+    "sample",
+    "chemical analysis"
+  ],
+  "Geology and exploration": [
+    "geology",
+    "prospect",
+    "basin",
+    "exploration",
+    "sedimentary"
+  ]
+}

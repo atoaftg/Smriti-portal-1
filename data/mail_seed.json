@@ -1,0 +1,155 @@
+[
+ {
+  "id": "M0001",
+  "empId": "E1001",
+  "kind": "auto-2m",
+  "sentAt": "2026-07-30T09:00:00+05:30",
+  "status": "sent",
+  "channel": "smtp",
+  "note": ""
+ },
+ {
+  "id": "M0002",
+  "empId": "E1002",
+  "kind": "auto-2m",
+  "sentAt": "2026-08-31T09:00:00+05:30",
+  "status": "sent",
+  "channel": "smtp",
+  "note": ""
+ },
+ {
+  "id": "M0003",
+  "empId": "E1002",
+  "kind": "reminder",
+  "sentAt": "2026-09-25T10:15:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": ""
+ },
+ {
+  "id": "M0004",
+  "empId": "E1003",
+  "kind": "auto-2m",
+  "sentAt": "2026-09-30T09:00:00+05:30",
+  "status": "sent",
+  "channel": "smtp",
+  "note": ""
+ },
+ {
+  "id": "M0005",
+  "empId": "E1004",
+  "kind": "auto-2m",
+  "sentAt": "2026-09-30T09:00:00+05:30",
+  "status": "sent",
+  "channel": "smtp",
+  "note": ""
+ },
+ {
+  "id": "M0006",
+  "empId": "E1004",
+  "kind": "nudge",
+  "sentAt": "2026-10-08T11:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": "Reminder to complete questionnaire"
+ },
+ {
+  "id": "M0007",
+  "empId": "E1005",
+  "kind": "auto-2m",
+  "sentAt": "2026-08-31T09:00:00+05:30",
+  "status": "sent",
+  "channel": "smtp",
+  "note": ""
+ },
+ {
+  "id": "M0008",
+  "empId": "E1007",
+  "kind": "auto-2m",
+  "sentAt": "2026-09-30T09:00:00+05:30",
+  "status": "failed",
+  "channel": "smtp",
+  "note": "Mailbox full (temporary failure)"
+ },
+ {
+  "id": "M0009",
+  "empId": "E1007",
+  "kind": "reminder",
+  "sentAt": "2026-10-05T10:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": ""
+ },
+ {
+  "id": "M0010",
+  "empId": "E1010",
+  "kind": "auto-2m",
+  "sentAt": "2026-09-30T09:00:00+05:30",
+  "status": "sent",
+  "channel": "smtp",
+  "note": ""
+ },
+ {
+  "id": "M0011",
+  "empId": "E1018",
+  "kind": "auto-2m",
+  "sentAt": "2026-09-30T09:00:00+05:30",
+  "status": "sent",
+  "channel": "smtp",
+  "note": ""
+ },
+ {
+  "id": "M0012",
+  "empId": "E1008",
+  "kind": "invite",
+  "sentAt": "2026-08-25T10:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": "Early invitation by Knowledge Team"
+ },
+ {
+  "id": "M0013",
+  "empId": "E1009",
+  "kind": "invite",
+  "sentAt": "2026-08-25T10:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": "Early invitation by Knowledge Team"
+ },
+ {
+  "id": "M0014",
+  "empId": "E1012",
+  "kind": "invite",
+  "sentAt": "2026-08-25T10:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": "Early invitation by Knowledge Team"
+ },
+ {
+  "id": "M0015",
+  "empId": "E1015",
+  "kind": "invite",
+  "sentAt": "2026-08-25T10:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": "Early invitation by Knowledge Team"
+ },
+ {
+  "id": "M0016",
+  "empId": "E1016",
+  "kind": "invite",
+  "sentAt": "2026-08-25T10:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": "Early invitation by Knowledge Team"
+ },
+ {
+  "id": "M0017",
+  "empId": "E1019",
+  "kind": "invite",
+  "sentAt": "2026-08-25T10:00:00+05:30",
+  "status": "sent",
+  "channel": "portal",
+  "note": "Early invitation by Knowledge Team"
+ }
+]

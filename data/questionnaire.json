@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q1",
+    "theme": "Career journey",
+    "text": "Describe your career journey and the defining moments that shaped you."
+  },
+  {
+    "id": "q2",
+    "theme": "Toughest challenge",
+    "text": "Tell us about the toughest technical or operational challenge you handled: the situation, what you did and the result."
+  },
+  {
+    "id": "q3",
+    "theme": "Failure and learning",
+    "text": "What is one mistake or failure that taught you the most? What would you do differently?"
+  },
+  {
+    "id": "q4",
+    "theme": "Safety and risk",
+    "text": "What safety, HSE or risk lessons from your experience must every new employee know?"
+  },
+  {
+    "id": "q5",
+    "theme": "Tacit knowledge",
+    "text": "What rules of thumb or tacit knowledge do you use that are not written in any manual?"
+  },
+  {
+    "id": "q6",
+    "theme": "Mentoring",
+    "text": "Who mentored you, and how did you pass on knowledge to your juniors?"
+  },
+  {
+    "id": "q7",
+    "theme": "Handover",
+    "text": "What unfinished work, risks or opportunities are you handing over to your successor?"
+  },
+  {
+    "id": "q8",
+    "theme": "Advice",
+    "text": "What advice would you give to young colleagues joining your function today?"
+  }
+]
